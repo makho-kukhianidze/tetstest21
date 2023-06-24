@@ -1,4 +1,4 @@
-    fetch('json/data.json') // 1. მივწვდით data.json ფაილს!
+    fetch('./assets/js/json/data.json') // 1. მივწვდით data.json ფაილს!
       .then(response => response.json())
       .then(Mydata => { // 2. ამოვიღეთ მთლიანი მონაცემი data.json - იდან! 
 
